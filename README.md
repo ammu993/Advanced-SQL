@@ -13,13 +13,13 @@ The final report was creted in an orderly manner with different subqueires:
   * As not all regions have data on taxes, be transparent and add a column representing the percentage of provinces with available tax rates for each country
 
 
-## Tools and Technologies
+## Tools Used
 BigQuery
 
 ## Data Source
 AdventureWorks 2001-2004
 
-## Code
+## Analysis
 
 ```sql
 WITH
