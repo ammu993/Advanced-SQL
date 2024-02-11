@@ -1,15 +1,15 @@
-# Reporting Sales' Numbers using Advanced SQL in BigQuery
+# Reporting Sales Numbers using Advanced SQL in BigQuery
 
 ## Overview
 Applying window functions, subqueries, and Common Table Expressions (CTEs) in BigQuery, this  project adeptly extracted monthly sales figures, encompassing mean tax rates and the percentage of provinces with tax, categorized by country and region.
 
 ## Project Structure
-The final report was creted in an orderly manner with different subqueires:
-+ Query monthly sales numbers in each Country & region. Include in the query a number of orders, customers and sales persons in each month with a total amount with tax earned.
-+ Calculate cumulative sum of the total amount with tax earned per country & region.
-+ Add ‘sales_rank’ column that ranks rows from best to worst for each country based on total amount with tax earned each month.
+The final sales report table was created by following the below steps:
++ Query monthly sales numbers in each Country & region. Include in the query the number of orders, customers and sales persons in each month with a total amount with tax earned.
++ Calculate the cumulative sum of the total amount with tax earned per country & region.
++ Add a ‘sales_rank’ column that ranks rows from best to worst for each country based on the total amount with tax earned each month.
 + Add taxes on a country level:
-  * As taxes can vary in country based on province, add a column for average tax rate in a country.
+  * As taxes can vary in a country based on province, add a column for the average tax rate in a country.
   * As not all regions have data on taxes, be transparent and add a column representing the percentage of provinces with available tax rates for each country
 
 
